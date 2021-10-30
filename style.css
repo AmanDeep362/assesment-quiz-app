@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap");
+body {
+  background-color: #f5f6f8;
+}
+.main-container {
+  background-color: #f5f6f8;
+}
+
+.signup-btn {
+  margin-left: 50%;
+  width: 121px;
+  height: 50px;
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+  border-radius: 12px;
+}
+.signIn-btn {
+  width: 121px;
+  height: 50px;
+  font-size: 16px;
+  font-family: "Manrope", sans-serif;
+  border-radius: 12px;
+  background-color: #28c8ab;
+}
+.section-1 {
+  height: 642px;
+  background-color: white;
+  top: 105px;
+  left: 0px;
+  margin: 0px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-top: 20px;
+}
+.section-1-text {
+  top: 230px;
+  left: 139px;
+  width: 355px;
+  height: 80px;
+  position: relative;
+  font-size: 30px;
+}
+.section-1-text p {
+  font-size: 16px;
+  padding-top: 10px;
+}
+.section-1-btn {
+  position: relative;
+  top: 92px;
+  left: 139px;
+  width: 260px;
+  height: 50px;
+  border: 1px solid #424242;
+  border-radius: 6px;
+  background-color: white;
+}
+.section-1-img {
+  position: relative;
+  top: 17px;
+  left: 192px;
+  width: 874px;
+  height: 460px;
+}
+.section-2 {
+  width: 1359px;
+  height: 664px;
+  background-color: #28C8AB;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 30px;
+ margin: -10px;
+}
