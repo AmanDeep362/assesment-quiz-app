@@ -7,7 +7,7 @@ body {
 }
 
 .signup-btn {
-  margin-left: 50%;
+  margin-left: 40%;
   width: 121px;
   height: 50px;
   font-size: 16px;
@@ -21,6 +21,7 @@ body {
   font-family: "Manrope", sans-serif;
   border-radius: 12px;
   background-color: #28c8ab;
+  margin-right: 10%;
 }
 .section-1 {
   height: 642px;
@@ -63,9 +64,165 @@ body {
 }
 .section-2 {
   width: 1359px;
-  height: 664px;
-  background-color: #28C8AB;
+  height: 554px;
+  background-color: #28c8ab;
   border-top-left-radius: 35px;
   border-top-right-radius: 30px;
- margin: -10px;
+  margin: -10px;
+}
+.logo {
+  margin: 15px;
+}
+.section-2-img {
+  top: 628px;
+  left: 90px;
+  width: 529px;
+  height: 496px;
+  position: absolute;
+}
+.section-2-heading {
+  top: 146px;
+  left: 783px;
+  width: 356px;
+  height: 80px;
+  position: relative;
+  color: #ffffff;
+  font-family: "Manrope", sans-serif;
+}
+.section-2-text {
+  position: relative;
+  top: 154px;
+  left: 783px;
+  width: 356px;
+  height: 208px;
+  color: #ffffff;
+  font-family: "Manrope", sans-serif;
+}
+.section-3 {
+  width: 1359px;
+  height: 794px;
+  background-color: #ffffff;
+  border-radius: 60px;
+  margin-top: -80px;
+}
+.section-3-heading {
+  position: relative;
+  top: 100px;
+  left: 140px;
+  width: 367px;
+  height: 40px;
+  text-align: left;
+  font: normal normal bold 30px/40px Manrope;
+  letter-spacing: 0px;
+  color: #28c8ab;
+  opacity: 1;
+}
+.section-3-card-1 {
+  width: 232px;
+  height: 315px;
+  background-color: #FADCBB;
+  position: relative;
+  left: 120px;
+  top:200px;
+  margin-right: 40px;
+  box-shadow: 0px 3px 35px #00000029
+}
+.section-3-card-3 {
+  width: 232px;
+  height: 315px;
+  background-color: #96D1FE;
+  position: relative;
+  left: 120px;
+  top:200px;
+  margin-right: 40px;
+  box-shadow: 0px 3px 35px #00000029
+}
+.section-3-card-4 {
+  width: 232px;
+  height: 315px;
+  background-color: #ECE3FF;
+  position: relative;
+  left: 120px;
+  top:200px;
+  margin-right: 40px;
+  box-shadow: 0px 3px 35px #00000029
+}
+.section-3-card-para{
+  padding: 10px;
+  font: normal normal bold 20px/22px Manrope;
+}
+.section-3-card-img{
+  position: relative;
+  top: -100px;
+}
+.section-3-card-btn-1{
+  width: 202px;
+height: 58px;
+background-color: #FADCBB;
+box-shadow: 0px 3px 35px #00000029;
+opacity: 1;
+position: relative;
+top: -20px;
+}
+.section-3-card-btn-2{
+  width: 202px;
+height: 58px;
+background-color: #4BEAC5;
+box-shadow: 0px 3px 35px #00000029;
+opacity: 1;
+position: relative;
+top: -20px;
+}
+.section-3-card-btn-3{
+  width: 202px;
+height: 58px;
+background-color: #96D1FE;
+box-shadow: 0px 3px 35px #00000029;
+opacity: 1;
+position: relative;
+top: -20px;
+}
+.section-3-card-btn-4{
+  width: 202px;
+height: 58px;
+background-color: #ECE3FF;
+box-shadow: 0px 3px 35px #00000029;
+opacity: 1;
+position: relative;
+top: -20px;
+}
+.section-3-card-container{
+  display: flex;
+ 
+}
+.section-3-card-2 {
+  width: 232px;
+  height: 315px;
+  background-color: #4BEAC5;
+  position: relative;
+  left: 120px;
+  top:200px;
+  margin-right: 40px;
+  box-shadow: 0px 3px 35px #00000029
+}
+.section-4{
+  margin-top: 40px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.section-4-para{
+  width: 269px;
+height: 91px;
+font-family: "manrope";
+}
+.section-4-card-2-heading{
+  font: normal normal 600 18px/28px Proxima Nova;
+letter-spacing: 0px;
+color: #22262A;
+opacity: 1;
+}
+.footer{
+  width: 1366px;
+height: 540px;
 }
