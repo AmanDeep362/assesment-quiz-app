@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Your Skill</title>
+    <link rel="stylesheet" href="quizpagestyling.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="header">
+        <img src="/images/TestMe_logo.png" alt="logo" />
+      </div>
+      <div class="crousal-section">
+        <h1 class="crousal-section-text">
+          <strong> Mock Test</strong> for Service Based companies
+        </h1>
+        <img
+          class="crousal-section-img"
+          src="/images/mock_test_masthead.png"
+          alt="mock-test"
+        />
+      </div>
+      <div class="question-container">
+        <div class="question-container-header">
+          <h4 class="questionNo">Question: <span id="questionNo"></span>/ <span id="totalQues"></span></h4>
+        </div>
+        <div class="question">
+          <span  id="questionno"></span>.<span id="question"></span>
+        </div>
+        <div id="options" class="options">
+          
+          <br>
+        </div>
+        <hr>
+        <div class="question-button">
+            
+                <button id="btn-prev" class="btn btn-secondary">Previos</button>
+                <button id="btn-next" class="btn btn-primary">save & Next</button>
+           
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="/questions.js"></script>
+  <script src="index.js"></script>
+</html>

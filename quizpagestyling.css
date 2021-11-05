@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap");
+body {
+  background-color: #f5f6f8;
+}
+.header {
+  margin: 30px 60px;
+}
+.crousal-section {
+  margin: 30px 60px;
+  background-color: white;
+  width: 90%;
+  height: 270px;
+}
+.crousal-section-text {
+  width: 381px;
+  height: 100px;
+  position: relative;
+  top: 80px;
+  left: 70px;
+  text-align: left;
+  font: normal normal normal 30px/40px Manrope;
+  letter-spacing: 0px;
+  color: #424242;
+}
+.crousal-section-text strong {
+  font: normal normal bold 30px/40px Manrope;
+  letter-spacing: 0px;
+  color: #424242;
+  text-transform: uppercase;
+}
+
+.crousal-section-img {
+  position: relative;
+  left: 50%;
+  bottom: 40%;
+}
+.question-container {
+  position: relative;
+  left: 66px;
+  top: 20px;
+  width: 812px;
+  height: 451px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 20px #00000029;
+  border: 0.20000000298023224px solid #c2c2c2;
+  border-radius: 4px;
+  opacity: 1;
+}
+.question-container-header {
+  margin: 0px;
+  top: -20px;
+  position: relative;
+  width: 812px;
+  height: 72px;
+  background: #f8f8f8 0% 0% no-repeat padding-box;
+}
+.questionNo {
+  width: 154px;
+  height: 26px;
+  text-align: left;
+  font: normal normal medium 20px/32px;
+  font-family: manrope;
+  letter-spacing: 0px;
+  color: #28c8ab;
+  opacity: 1;
+  padding-top: 20px;
+  position: relative;
+  left: 4%;
+}
+.question {
+  width: 755px;
+  height: 88px;
+  margin-left: 3%;
+  text-align: left;
+  font: normal normal medium 18px/30px Manrope;
+  letter-spacing: 0px;
+  color: #858585;
+  opacity: 1;
+}
+.option-text{
+  width: 98px;
+  height: 23px;
+  text-align: left;
+  font: normal normal normal 18px/30px Manrope;
+  letter-spacing: 0px;
+  color: #858585;
+  opacity: 1;
+  margin: 12px;
+  
+}
+hr{
+  position: relative;
+  left: 40px;
+  width: 663px;
+  height: 0px;
+  border: 0.5px solid #C2C2C2;
+  opacity: 1;
+}
+.checkbox{
+  position: relative;
+  left: 15px;
+}
+.question-button{
+  margin-left: 30%;
+  margin-top: 10%;
+}
+#btn-next{
+  margin-left: 5%;
+}

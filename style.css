@@ -7,21 +7,25 @@ body {
 }
 
 .signup-btn {
-  margin-left: 40%;
+  position: relative;
+  float: right;
   width: 121px;
   height: 50px;
   font-size: 16px;
   font-family: "Manrope", sans-serif;
   border-radius: 12px;
+  margin-left: 800px;
 }
 .signIn-btn {
   width: 121px;
+  float: right;
+ position: relative;
   height: 50px;
   font-size: 16px;
   font-family: "Manrope", sans-serif;
   border-radius: 12px;
   background-color: #28c8ab;
-  margin-right: 10%;
+  margin-right: 11%;
 }
 .section-1 {
   height: 642px;
@@ -120,109 +124,265 @@ body {
 .section-3-card-1 {
   width: 232px;
   height: 315px;
-  background-color: #FADCBB;
+  background-color: #fadcbb;
   position: relative;
   left: 120px;
-  top:200px;
+  top: 200px;
   margin-right: 40px;
-  box-shadow: 0px 3px 35px #00000029
+  box-shadow: 0px 3px 35px #00000029;
 }
 .section-3-card-3 {
   width: 232px;
   height: 315px;
-  background-color: #96D1FE;
+  background-color: #96d1fe;
   position: relative;
   left: 120px;
-  top:200px;
+  top: 200px;
   margin-right: 40px;
-  box-shadow: 0px 3px 35px #00000029
+  box-shadow: 0px 3px 35px #00000029;
 }
 .section-3-card-4 {
   width: 232px;
   height: 315px;
-  background-color: #ECE3FF;
+  background-color: #ece3ff;
   position: relative;
   left: 120px;
-  top:200px;
+  top: 200px;
   margin-right: 40px;
-  box-shadow: 0px 3px 35px #00000029
+  box-shadow: 0px 3px 35px #00000029;
 }
-.section-3-card-para{
+.section-3-card-para {
   padding: 10px;
   font: normal normal bold 20px/22px Manrope;
 }
-.section-3-card-img{
+.section-3-card-img {
   position: relative;
   top: -100px;
 }
-.section-3-card-btn-1{
+.section-3-card-btn-1 {
   width: 202px;
-height: 58px;
-background-color: #FADCBB;
-box-shadow: 0px 3px 35px #00000029;
-opacity: 1;
-position: relative;
-top: -20px;
+  height: 58px;
+  background-color: #fadcbb;
+  box-shadow: 0px 3px 35px #00000029;
+  opacity: 1;
+  position: relative;
+  top: -20px;
 }
-.section-3-card-btn-2{
+.section-3-card-btn-2 {
   width: 202px;
-height: 58px;
-background-color: #4BEAC5;
-box-shadow: 0px 3px 35px #00000029;
-opacity: 1;
-position: relative;
-top: -20px;
+  height: 58px;
+  background-color: #4beac5;
+  box-shadow: 0px 3px 35px #00000029;
+  opacity: 1;
+  position: relative;
+  top: -20px;
 }
-.section-3-card-btn-3{
+.section-3-card-btn-3 {
   width: 202px;
-height: 58px;
-background-color: #96D1FE;
-box-shadow: 0px 3px 35px #00000029;
-opacity: 1;
-position: relative;
-top: -20px;
+  height: 58px;
+  background-color: #96d1fe;
+  box-shadow: 0px 3px 35px #00000029;
+  opacity: 1;
+  position: relative;
+  top: -20px;
 }
-.section-3-card-btn-4{
+.section-3-card-btn-4 {
   width: 202px;
-height: 58px;
-background-color: #ECE3FF;
-box-shadow: 0px 3px 35px #00000029;
-opacity: 1;
-position: relative;
-top: -20px;
+  height: 58px;
+  background-color: #ece3ff;
+  box-shadow: 0px 3px 35px #00000029;
+  opacity: 1;
+  position: relative;
+  top: -20px;
 }
-.section-3-card-container{
+.section-3-card-container {
   display: flex;
- 
 }
 .section-3-card-2 {
   width: 232px;
   height: 315px;
-  background-color: #4BEAC5;
+  background-color: #4beac5;
   position: relative;
   left: 120px;
-  top:200px;
+  top: 200px;
   margin-right: 40px;
-  box-shadow: 0px 3px 35px #00000029
+  box-shadow: 0px 3px 35px #00000029;
 }
-.section-4{
+.section-4 {
   margin-top: 40px;
   margin-left: 50px;
   display: flex;
   justify-content: space-around;
 }
-.section-4-para{
+.section-4-para {
   width: 269px;
-height: 91px;
-font-family: "manrope";
+  height: 91px;
+  font-family: "manrope";
 }
-.section-4-card-2-heading{
+.section-4-card-2-heading {
   font: normal normal 600 18px/28px Proxima Nova;
-letter-spacing: 0px;
-color: #22262A;
-opacity: 1;
+  letter-spacing: 0px;
+  color: #22262a;
+  opacity: 1;
 }
-.footer{
+.footer {
   width: 1366px;
-height: 540px;
+  height: 240px;
+}
+.footer-list-container {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 150px;
+}
+.footer-list {
+  margin-left: 20px;
+}
+.footer-list-item {
+  list-style: none;
+}
+.payment-footer {
+  margin-left: 75%;
+  margin-top: 20px;
+}
+.payment-footer-img {
+  margin: 5px;
+}
+@media only screen and (max-width: 420px) {
+ 
+  .navbar {
+    width: 1360px;
+   
+  }
+  .section-1 {
+    height: 650px;
+  }
+  .section-1-text {
+    top: 283px;
+    left: 12px;
+    width: 341px;
+    height: 80px;
+  }
+  .section-1-btn {
+    top: 400px;
+    left: 40px;
+  }
+  .section-1-img {
+    top: -106px;
+    left: 9px;
+    width: 363px;
+    height: 219px;
+  }
+  .section-2 {
+    width: 102%;
+    height: 554px;
+    background-color: #28c8ab;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 30px;
+    margin: -10px;
+  }
+  .signIn-btn , .signup-btn{
+    display: none;
+  }
+  .logo {
+    margin: 15px;
+  }
+  .section-2-img {
+    top: 632px;
+    left: 41px;
+    width: 323px;
+    height: 288px;
+  }
+  .section-2-heading {
+    top: 227px;
+    left: 44px;
+  }
+  .section-2-text {
+    top: 218px;
+    left: 44px;
+    width: 339px;
+  }
+  .section-3 {
+    width: 100%;
+    height: 1794px;
+    background-color: #ffffff;
+    border-radius: 60px;
+    margin-top: -80px;
+  }
+  .section-3-heading {
+    top: 100px;
+    left: 30px;
+    width: 367px;
+    
+  }
+  .section-3-card-1 {
+    left: 20px;
+    top: 200px;
+    margin-top: 40px;
+  }
+  .section-3-card-3 {
+    left: 20px;
+    top: 200px;
+    margin-top: 40px;
+  }
+  .section-3-card-4 {
+    left: 20px;
+    top: 200px;
+    margin-top: 40px;
+  }
+  
+  .section-3-card-img {
+    position: relative;
+    top: -100px;
+  }
+  .section-3-card-btn-1 {
+    display: none;
+  }
+  .section-3-card-btn-2 {
+    display: none;
+  }
+  .section-3-card-btn-3 {
+    display: none;
+  }
+  .section-3-card-btn-4 {
+    display: none;
+  }
+  .section-3-card-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .section-3-card-2 {
+    left: 20px;
+    top: 200px;
+    margin-top: 40px;
+  }
+  .section-4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+  }
+  .footer {
+    width: 100%;
+    height: 240px;
+  }
+  .footer-list-container {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .footer-list {
+    margin-left: 20px;
+    display: none;
+  }
+  #footer-main-list{
+    display: block;
+  }
+  .footer-list-item {
+    list-style: none;
+  }
+  .payment-footer {
+   display: flex;
+   margin-left: 40px;
+  }
+  
 }
