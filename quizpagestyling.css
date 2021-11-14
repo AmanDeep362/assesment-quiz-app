@@ -107,3 +107,74 @@ hr{
 #btn-next{
   margin-left: 5%;
 }
+.score-card-1-text-2{
+  position: relative;
+  float: right;
+  right: 40px;
+  top: 30px;
+  font-size: 22px;
+  color: #283B75;
+}
+.score-card-2-text-2{
+  position: relative;
+  float: right;
+  right: 40px;
+  top: 30px;
+  font-size: 22px;
+  color:#FDB827;
+}
+.score-card-3-text-2{
+  position: relative;
+  float: right;
+  right: 40px;
+  top: 30px;
+  font-size: 22px;
+  color: #F3364C;
+}
+.progress-bar-container{
+  position: relative;
+  top: 30px;
+  margin: 5px;
+}
+#progress-bar {
+  width: 600px;
+  height: 60px;
+  border-radius: 0%;
+  color: #1A67DD;
+  margin-left: 10%;
+}
+.progress-bar-container{
+  display: flex;
+  margin-left: 10%;
+}
+.correct-bar{
+  height: 82px;
+  background-color: #1A67DD;
+}
+.incorrect-bar{
+  height: 82px;
+  background-color: #E5EFFF;
+}
+#correct-bar-text{
+  position: relative;
+  left: 40px;
+  top: 20px;
+  color: white;
+  font-size: 22px;
+}
+#incorrect-bar-text{
+  position: relative;
+  left: 40px;
+  top: 20px;
+  color: #1A67DD;
+  font-size: 22px;
+}
+.footer-section{
+  position: relative;
+  top: 700px;
+}
+.summary-section{
+  position: absolute;
+  left: 909px;
+  top: 150px;
+}

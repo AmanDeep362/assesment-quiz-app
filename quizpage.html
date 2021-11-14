@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test Your Skill</title>
     <link rel="stylesheet" href="quizpagestyling.css" />
+    <link rel="stylesheet" href="viewScore.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   </head>
   <body>
-    <div class="main-container">
+    <div id="ques-container" class="main-container">
       <div class="header">
         <img src="/images/TestMe_logo.png" alt="logo" />
       </div>
@@ -39,15 +40,61 @@
             
                 <!-- <button id="btn-prev" class="btn btn-secondary">Previos</button> -->
                 <button id="btn-next" class="btn btn-primary">save & Next</button>
-                 <a href="viewScore.html">
+                
                 <button id="submit-btn" class="btn btn-primary">Submit</button>
-              </a>
+              
         </div>
       </div>
     </div>
+ <!-- --------------------------/////--------------------------------------------------------------------- -->
+
+    <div class="mainContainer" id="viewScore">
+      <div class="logo-header">
+       <img src="./images/TestMe_logo.png" alt="logo">
+      </div>
+      <div class="score-card-container">
+        <div class="score-card-header">
+          <p class="score-header-text">
+            Test Summary
+          </p>
+        </div>
+        <div class="score-card-1">
+          <span class="score-card-1-text">No of Questions</span>
+          <span id="score-card-1-text-2" class="score-card-1-text-2"></span>
+        </div>
+        <div class="score-card-2">
+          <span class="score-card-2-text">Correct </span>
+          <span id="correct-Ques" class="score-card-2-text-2"></span>
+        </div>
+        <div class="score-card-3">
+          <span class="score-card-3-text">Incorrect </span>
+          <span id="score-card-3-text-2" class="score-card-3-text-2"></span>
+        </div>
+      
+        <h5 style="margin-top: 60px;">Total Score</h5> 
+        <div class="progress-bar-container">
+          
+          <div id="correctBar" class="correct-bar">
+            <span id="correct-bar-text"></span>
+          </div>
+          <div  id="incorrectBar" class="incorrect-bar">
+            <span id="incorrect-bar-text"></span>
+          </div>
+        </div>
+      </div>
+     
+      <div class="summary-section">
+        <img src="./images/summary-section.png" alt="">
+      </div>
+     
+      <div class="footer-section">
+        <img src="./images/Screenshot (2).png" alt="">
+      </div>
+    </div>
+ 
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
   <script src="/questions.js"></script>
-  <script src="index.js"></script>
 </html>

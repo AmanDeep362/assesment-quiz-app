@@ -4,7 +4,7 @@ let questions = [
     question:
       "The Binary Coded Decimal (BCD) uses",
     options: ["6 bits", "8 bits", "16 bits", "32 bits"],
-    correctOption: "6 bits",
+    correctOption: "option-1",
     checkedoption:[],
   },
   {
@@ -12,14 +12,14 @@ let questions = [
     question:
       "A program attempts to generate as many permutations as possible of the string, 'abcd' by pushing the characters a, b, c, d in the same order onto a stack, but it may pop off the top character at any time. Which one of the following strings CANNOT be generated using this program?",
     options: ["abcd", "dcba", "cbad", "cabd"],
-    correctOption: "cbad",
+    correctOption: "option-3",
     checkedoption:[]
   },
   {
     QueNo: 3,
     question: "RAM is also called as",
     options: ["virtual memory", "volatile memory", "Non volatile memory", "cache memory"],
-    correctOption: "virtual memory",
+    correctOption: "option-1",
     checkedoption:[]
   },
   {
@@ -27,7 +27,7 @@ let questions = [
     question:
       "The Binary Coded Decimal (BCD) uses",
     options: ["6 bits", "8 bits", "16 bits", "32 bits"],
-    correctOption: "6 bits",
+    correctOption: "option-1",
     checkedoption:[]
   },
   {
@@ -35,14 +35,14 @@ let questions = [
     question:
       "A program attempts to generate as many permutations as possible of the string, 'abcd' by pushing the characters a, b, c, d in the same order onto a stack, but it may pop off the top character at any time. Which one of the following strings CANNOT be generated using this program?",
     options: ["abcd", "dcba", "cbad", "cabd"],
-    correctOption: "cbad",
+    correctOption: "option-3",
     checkedoption:[]
   },
   {
     QueNo: 6,
     question: "RAM is also called as",
     options: ["virtual memory", "volatile memory", "Non volatile memory", "cache memory"],
-    correctOption: "virtual memory",
+    correctOption: "option-1",
     checkedoption:[]
   },
   {
@@ -50,15 +50,31 @@ let questions = [
     question:
       "A program attempts to generate as many permutations as possible of the string, 'abcd' by pushing the characters a, b, c, d in the same order onto a stack, but it may pop off the top character at any time. Which one of the following strings CANNOT be generated using this program?",
     options: ["abcd", "dcba", "cbad", "cabd"],
-    correctOption: "cbad",
+    correctOption: "option-3",
     checkedoption:[]
   },
-  
+  {
+    QueNo: 8,
+    question: "RAM is also called as",
+    options: ["virtual memory", "volatile memory", "Non volatile memory", "cache memory"],
+    correctOption: "option-1",
+    checkedoption:[]
+  },
+  {
+    QueNo: 7,
+    question:
+      "A program attempts to generate as many permutations as possible of the string, 'abcd' by pushing the characters a, b, c, d in the same order onto a stack, but it may pop off the top character at any time. Which one of the following strings CANNOT be generated using this program?",
+    options: ["abcd", "dcba", "cbad", "cabd"],
+    correctOption: "option-3",
+    checkedoption:[]
+  },
 ];
 
 let i = 0;
 
 let noofquest = questions.length;
+let correctans =0;
+
 console.log(noofquest);
 function questionview() {
   document.getElementById("question-No").innerText = questions[i].QueNo;
@@ -110,7 +126,23 @@ function questionview() {
 }
 questionview();
 
-
+let incorrectans = 0;
+var rightans;
+function scoreCount (){
+ if(questions[i].correctOption == questions[i].checkedoption[0]){
+   correctans++;
+ }
+ console.log(questions[i].correctOption)
+ console.log(questions[i].checkedoption)
+ document.getElementById("correct-Ques").innerText = rightans;
+ document.getElementById("score-card-3-text-2").innerText = noofquest-rightans;
+ var totalscore =(rightans/noofquest)*100;
+ document.getElementById("correctBar").style.width = totalscore +"%"
+ document.getElementById("incorrectBar").style.width =(100-totalscore) +"%"
+ document.getElementById("correct-bar-text").innerText = rightans +"/"+noofquest
+ document.getElementById("incorrect-bar-text").innerText =Math.floor(totalscore) +"%"
+ 
+}
 
 // document.getElementById("btn-prev").onclick = () => {
 //   i = i - 1;
@@ -126,7 +158,22 @@ document.getElementById("btn-next").onclick = () => {
      
   }
   console.log(questions)
+  scoreCount();
   i = i + 1;
   questionview();
+   rightans = correctans;
+  console.log(rightans)
 };
-console.log(noofquest)
+document.getElementById("viewScore").style.display ="none";
+
+var submitbtn = document.getElementById("submit-btn");
+
+document.getElementById("score-card-1-text-2").innerText = noofquest;
+
+
+
+submitbtn.addEventListener("click",()=>{
+  alert("do you want to submit the test")
+  document.getElementById("ques-container").style.display ="none";
+  document.getElementById("viewScore").style.display ="block";
+})
